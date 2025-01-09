@@ -7,7 +7,9 @@ export default function DashboardLayout({
 }>) {
   return (
     <main className='flex items-center'>
-      <SideMenu />
+      <div className='w-64'>
+        <SideMenu />
+      </div>
       {children}
     </main>
   );
